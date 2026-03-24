@@ -1,0 +1,34 @@
+body {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: orange;
+    border: none;
+    border-radius: 6px;
+
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover { 
+    background-color: #ec7211;
+}
+
+.container{
+    text-align: left;
+    background-color: black;
+    color: #fcfafa;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
